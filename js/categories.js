@@ -2,7 +2,7 @@ const productsContainer = document.getElementById("products-container");
 
 async function loadProducts() {
   try {
-    const response = await fetch("api/getcategories.php");
+    const response = await fetch("php/getcategories.php");
     const data = await response.json();
 
     // Adjust if Involve Asia API structure changes
